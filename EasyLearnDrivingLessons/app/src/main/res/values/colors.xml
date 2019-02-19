@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Colours used in light mode.
+    <color name="colorPrimary">#DA6A6A</color>
+    <color name="colorPrimaryDark">#8D4C4C</color>
+    <color name="colorAccent">#000000</color>
+
+    //Colours used in light mode.
+    <color name="colorDarkPrimary">#915555</color>
+    <color name="colorDarkPrimaryDark">#573232</color>
+    <color name="colorDarkAccent">#000000</color>
+</resources>
