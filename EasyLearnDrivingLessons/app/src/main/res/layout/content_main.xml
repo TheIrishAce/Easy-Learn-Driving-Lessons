@@ -38,7 +38,7 @@
         android:layout_marginBottom="3dp"
         android:text="Test Questions"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/VideoLessonsBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
@@ -46,7 +46,7 @@
         tools:text="Test Questions" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/VideoLessonsBtn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -58,14 +58,14 @@
         android:layout_marginBottom="5dp"
         android:text="Video Lessons"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/InsuranceBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TestQuestionsBtn"
         tools:text="Video Lessons" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/InsuranceBtn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -77,14 +77,14 @@
         android:layout_marginBottom="3dp"
         android:text="Insurance"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/DrivingSchoolBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/VideoLessonsBtn"
         tools:text="Insurance" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/DrivingSchoolBtn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -96,14 +96,14 @@
         android:layout_marginBottom="3dp"
         android:text="Driving Schools"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/ContactUsBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/InsuranceBtn"
         tools:text="Driving Schools" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/ContactUsBtn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -115,14 +115,14 @@
         android:layout_marginBottom="3dp"
         android:text="Contact Us"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintBottom_toTopOf="@+id/BookDttBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/DrivingSchoolBtn"
         tools:text="Contact Us" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/BookDttBtn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -134,14 +134,14 @@
         android:layout_marginBottom="3dp"
         android:text="Book A DTT"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintBottom_toTopOf="@+id/NearestTestCentreBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/ContactUsBtn"
         tools:text="Book A DTT" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/NearestTestCentreBtn"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -156,7 +156,24 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/BookDttBtn"
         tools:text="Nearest Test Center" />
+
+    <Switch
+        android:id="@+id/colorModeSw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="286dp"
+        android:layout_marginLeft="286dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="144dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toTopOf="@+id/TestQuestionsBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>
