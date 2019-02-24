@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
@@ -30,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         //themeChanger();
+
+        Button contactButton= (Button) findViewById(R.id.ContactUsBtn);
+        contactButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(MainActivity.this, contact_page.class));
+            }
+        });
     }
 
     public void setTheme(){
@@ -87,4 +97,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

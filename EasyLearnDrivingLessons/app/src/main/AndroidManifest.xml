@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Base.MyTheme">
+        <activity android:name=".contact_page"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
