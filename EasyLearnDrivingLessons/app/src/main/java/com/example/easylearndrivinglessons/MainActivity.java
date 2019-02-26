@@ -31,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         //themeChanger();
+        Button mapBtn= (Button) findViewById(R.id.NearestTestCentreBtn);
+        mapBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
+            }
+        });
 
         Button contactButton= (Button) findViewById(R.id.ContactUsBtn);
         contactButton.setOnClickListener(new View.OnClickListener(){
