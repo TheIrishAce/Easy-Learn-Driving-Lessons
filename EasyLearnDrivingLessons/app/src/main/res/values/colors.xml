@@ -4,9 +4,13 @@
     <color name="colorPrimary">#DA6A6A</color>
     <color name="colorPrimaryDark">#8D4C4C</color>
     <color name="colorAccent">#000000</color>
+    <color name="colorBackgroundLight">#FCFCFC</color>
+    <color name="colorTextLight">#FCFCFC</color>
 
-    //Colours used in light mode.
-    <color name="colorDarkPrimary">#915555</color>
-    <color name="colorDarkPrimaryDark">#573232</color>
-    <color name="colorDarkAccent">#000000</color>
+    //Colours used in Dark mode.
+    <color name="colorPrimaryNight">#DA6A6A</color>
+    <color name="colorPrimaryDarkNight">#8D4C4C</color>
+    <color name="colorAccentNight">#000000</color>
+    <color name="colorBackgroundNight">#6D6D6D</color>
+    <color name="colorTextNight">#FFC500</color>
 </resources>
