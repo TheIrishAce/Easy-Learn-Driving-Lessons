@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         //themeChanger();
+       //variable for map button
         Button mapBtn= (Button) findViewById(R.id.NearestTestCentreBtn);
         mapBtn.setOnClickListener(new View.OnClickListener(){
             @Override
