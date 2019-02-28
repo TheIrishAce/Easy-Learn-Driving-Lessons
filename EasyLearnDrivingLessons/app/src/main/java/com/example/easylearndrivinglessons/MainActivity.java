@@ -18,6 +18,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Switch colorModeSwitch;
+    SharedPrefs sharedpref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setTheme(){
-        if(AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES){
+        sharedpref = new SharedPrefs(this);
+        if(sharedpref.loadNightModeState()==true){
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         }
         else{
@@ -52,18 +54,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkTheme(){
-        if (AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES){
+        if (sharedpref.loadNightModeState()==true){
             colorModeSwitch.setChecked(true);
         }
         colorModeSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked){
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                    sharedpref.setNightModeState(true);
                     restartApp();
                 }
                 else {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                    sharedpref.setNightModeState(false);
                     restartApp();
                 }
             }
