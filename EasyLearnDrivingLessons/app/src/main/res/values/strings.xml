@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Easy Learn Irish Driving Lessons</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_recommendedschools_page">recommendedschools_page</string>
+    <string name="recommended_schools">Recommended Schools</string>
+    <string name="DC_DRIVING" />
+    <string name="RSA"/>
+    <string name="Alexandra"/>
+    <string name="highly_recommend_this_driving_school_for_their_good_rates_and_great_instructors" />
 </resources>
