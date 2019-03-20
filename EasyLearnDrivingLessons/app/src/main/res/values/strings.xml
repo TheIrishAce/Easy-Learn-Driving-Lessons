@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Easy Learn Irish Driving Lessons</string>
     <string name="action_settings">Settings</string>
+    <string name="phone">Phone: ...</string>
+    <string name="send_email">Send Email</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="message_goes_here">Message goes here</string>
+    <string name="email">Email: ...</string>
+    <string name="need_to_get_in_contact">Need to get in Contact?</string>
 </resources>
