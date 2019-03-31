@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_0001">
+        "What does this sign mean?"
+    </string>
+    <string name="question_0002">
+        "What must a driver do when this sign is accompanied by a white stop line on the road?"
+    </string>
+    <string name="question_0003">
+        "What must a driver do when this sign is NOT accompanied by a white stop line on the road?"
+    </string>
+</resources>
