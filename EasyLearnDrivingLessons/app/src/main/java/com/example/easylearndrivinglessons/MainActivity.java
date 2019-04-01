@@ -40,6 +40,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, contact_page.class));
             }
         });
+        Button videoButton= (Button) findViewById(R.id.VideoLessonsBtn);
+        videoButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(MainActivity.this, VideoActivity.class));
+            }
+        });
+
     }
 
     public void setTheme(){
