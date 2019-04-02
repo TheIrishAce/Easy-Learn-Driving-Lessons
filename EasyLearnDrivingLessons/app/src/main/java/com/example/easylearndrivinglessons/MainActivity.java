@@ -18,6 +18,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Switch colorModeSwitch;
+    SharedPrefs sharedpref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         //themeChanger();
+       //variable for map button
+        Button mapBtn= (Button) findViewById(R.id.NearestTestCentreBtn);
+        mapBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
+            }
+        });
 
         Button contactButton= (Button) findViewById(R.id.ContactUsBtn);
         contactButton.setOnClickListener(new View.OnClickListener(){
@@ -40,19 +50,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, contact_page.class));
             }
         });
-        Button videoButton= (Button) findViewById(R.id.VideoLessonsBtn);
-        videoButton.setOnClickListener(new View.OnClickListener(){
+
+        Button revisionButton= (Button) findViewById(R.id.TestQuestionsBtn);
+        revisionButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
 
-                startActivity(new Intent(MainActivity.this, VideoActivity.class));
+                startActivity(new Intent(MainActivity.this, RevisionMaterial.class));
             }
         });
-
     }
 
     public void setTheme(){
-        if(AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES){
+        sharedpref = new SharedPrefs(this);
+        if(sharedpref.loadNightModeState()==true){
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         }
         else{
@@ -61,18 +72,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkTheme(){
-        if (AppCompatDelegate.getDefaultNightMode()==AppCompatDelegate.MODE_NIGHT_YES){
+        if (sharedpref.loadNightModeState()==true){
             colorModeSwitch.setChecked(true);
         }
         colorModeSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked){
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                    sharedpref.setNightModeState(true);
                     restartApp();
                 }
                 else {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                    sharedpref.setNightModeState(false);
                     restartApp();
                 }
             }
