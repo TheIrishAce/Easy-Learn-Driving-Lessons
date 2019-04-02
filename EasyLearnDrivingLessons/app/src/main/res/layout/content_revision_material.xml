@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RevisionMaterial"
+    tools:showIn="@layout/activity_revision_material">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/textview_border">
+
+        <ImageView
+            android:id="@+id/question1Img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:scaleType="center"
+            app:srcCompat="@mipmap/stop_sign" />
+
+        <TextView
+            android:id="@+id/question1Lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text="@string/question_0001"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/answer1Lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text="@string/answer_0001"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/question2Img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:scaleType="center"
+
+            app:srcCompat="@mipmap/stop_sign" />
+
+        <TextView
+            android:id="@+id/question2Lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text="@string/question_0002"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/answer2Lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text="@string/answer_0002"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/question3Img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:scaleType="center"
+
+            app:srcCompat="@mipmap/stop_sign" />
+
+        <TextView
+            android:id="@+id/question3Lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text="@string/question_0003"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/answer3Lbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:background="@drawable/textview_border"
+            android:gravity="center_vertical"
+            android:text="@string/answer_0003"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
