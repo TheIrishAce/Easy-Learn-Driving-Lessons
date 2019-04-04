@@ -8,4 +8,87 @@
     tools:context=".recommended_schools"
     tools:showIn="@layout/activity_recommended_schools">
 
+    <EditText
+        android:id="@+id/AirportDrivingSchool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="363dp"
+        android:ems="10"
+        android:text="AirportDrivingSchool"
+        app:layout_constraintBottom_toTopOf="@+id/description2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/description1"
+        android:layout_width="357dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="449dp"
+        android:ems="10"
+        android:hint="description1"
+        android:inputType="textMultiLine"
+        android:text="excellent instructors , superb location, 10/10 recommend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AirportDrivingSchool"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5"
+        app:layout_constraintStart_toStartOf="@+id/description1"
+        app:layout_constraintTop_toBottomOf="@+id/description1" />
+
+    <EditText
+        android:id="@+id/DC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="DCDriving"
+        android:inputType="text"
+        android:text="DC Driving"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <EditText
+        android:id="@+id/description2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginBottom="118dp"
+        android:ems="10"
+        android:hint="description2"
+        android:inputType="textMultiLine"
+        android:text="top quality school with knowledgable instructors , great low price too "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AirportDrivingSchool" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:numStars="4"
+        android:rating="4"
+        android:stepSize="4"
+        app:layout_constraintStart_toStartOf="@+id/description2"
+        app:layout_constraintTop_toBottomOf="@+id/description2" />
+
 </android.support.constraint.ConstraintLayout>
