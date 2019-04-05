@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_revision_material">RevisionMaterial</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+
 </resources>
