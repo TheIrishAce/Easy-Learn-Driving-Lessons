@@ -4,5 +4,14 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_revision_material">RevisionMaterial</string>
     <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="thumbnail_image_view_desc">image_view_desc</string>
+
+    <string-array name="video_id">
+        <item>rw2U50zGLPI</item>
+        <item>33RfsDeVynw</item>
+        <item>EsxoAUiKGUM</item>
+        <item>Lvap3033w38</item>
+        <item>enK8gHJn-i0</item>
+    </string-array>
 
 </resources>

@@ -2,18 +2,17 @@ package com.example.easylearndrivinglessons;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
-import android.widget.Toast;
+
+import com.example.easylearndrivinglessons.youtubeVideos.VideoActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setTheme();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        colorModeSwitch = (Switch) findViewById(R.id.colorModeSw);
+        colorModeSwitch = findViewById(R.id.colorModeSw);
         checkTheme();
         //themeChanger();
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         //themeChanger();
        //variable for map button
-        Button mapBtn= (Button) findViewById(R.id.NearestTestCentreBtn);
+        Button mapBtn = findViewById(R.id.NearestTestCentreBtn);
         mapBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button contactButton= (Button) findViewById(R.id.ContactUsBtn);
+        Button contactButton = findViewById(R.id.ContactUsBtn);
         contactButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -50,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, contact_page.class));
             }
         });
-        Button videoButton= (Button) findViewById(R.id.VideoLessonsBtn);
+        Button videoButton = findViewById(R.id.VideoLessonsBtn);
         videoButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -59,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button revisionButton= (Button) findViewById(R.id.TestQuestionsBtn);
+        Button revisionButton = findViewById(R.id.TestQuestionsBtn);
         revisionButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
