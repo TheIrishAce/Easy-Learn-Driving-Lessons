@@ -22,6 +22,10 @@
             android:name=".RevisionMaterial"
             android:label="@string/title_activity_revision_material"
             android:theme="@style/Base.MyTheme.NoActionBar" />
+        <activity
+            android:name=".recommended_insurance"
+            android:label="Recommended Insurance"
+            android:theme="@style/Base.MyTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
