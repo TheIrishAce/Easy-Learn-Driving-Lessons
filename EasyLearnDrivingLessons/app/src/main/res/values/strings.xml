@@ -5,6 +5,8 @@
     <string name="title_activity_revision_material">RevisionMaterial</string>
     <string name="player_error">Error initializing YouTube player: %s</string>
     <string name="thumbnail_image_view_desc">image_view_desc</string>
+    <string name="Recommended_Schools">RecommendedSchools</string>
+    <string name="Recommended_Insurance">RecommendedInsurance</string>
 
     <string-array name="video_id">
         <item>FY7vBbxtXJ4</item>

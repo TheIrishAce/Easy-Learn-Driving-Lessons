@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".reccomended_insurance"
-    tools:showIn="@layout/activity_reccomended_insurance">
+    tools:context=".recommended_insurance"
+    tools:showIn="@layout/activity_recommended_insurance">
 
     <EditText
         android:id="@+id/Allianz"
@@ -75,8 +75,8 @@
         android:id="@+id/editTextQuoteDevil"
         android:layout_width="355dp"
         android:layout_height="119dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="editTextQuoteDevil"

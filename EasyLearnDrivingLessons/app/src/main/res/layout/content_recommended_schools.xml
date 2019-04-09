@@ -25,7 +25,7 @@
     <EditText
         android:id="@+id/description1"
         android:layout_width="357dp"
-        android:layout_height="127dp"
+        android:layout_height="96dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginBottom="449dp"
@@ -36,7 +36,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AirportDrivingSchool"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -51,9 +51,9 @@
         android:id="@+id/DC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginLeft="31dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="144dp"
         android:ems="10"
         android:hint="DCDriving"
         android:inputType="text"
@@ -63,8 +63,8 @@
 
     <EditText
         android:id="@+id/description2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="341dp"
+        android:layout_height="105dp"
         android:layout_marginStart="31dp"
         android:layout_marginLeft="31dp"
         android:layout_marginEnd="31dp"
@@ -76,7 +76,7 @@
         android:text="top quality school with knowledgable instructors , great low price too "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AirportDrivingSchool" />
 
