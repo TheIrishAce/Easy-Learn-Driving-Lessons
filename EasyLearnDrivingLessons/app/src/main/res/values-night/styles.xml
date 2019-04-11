@@ -23,4 +23,10 @@
 
     <style name="Base.MyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MyToolbarTheme"
+        parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/colorAccentNight</item>
+        <item name="titleTextColor">@color/colorPrimaryNight</item>
+    </style>
+
 </resources>
