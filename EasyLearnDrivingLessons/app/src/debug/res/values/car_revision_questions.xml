@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="question_0001">
-        "What does this sign mean?"
+    <string name="question_0001_car">
+        "When parked on a busy road, what should the driver be aware of?"
     </string>
-    <string name="question_0002">
+    <string name="question_0002_car">
         "What must a driver do when this sign is accompanied by a white stop line on the road?"
     </string>
-    <string name="question_0003">
+    <string name="question_0003_car">
         "What must a driver do when this sign is NOT accompanied by a white stop line on the road?"
+    </string>
+    <string name="question_0004_car">
+        "This hand signal means the driver is.."
     </string>
 </resources>

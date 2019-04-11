@@ -28,9 +28,10 @@ public class RevisionMaterial extends AppCompatActivity {
 
 
         adapter = new TabAdapter(getSupportFragmentManager());
-        adapter.addFragment(new CarFragment(), "Car");
-        adapter.addFragment(new BikeFragment(), "Motorcycle");
-        //adapter.addFragment(new Tab3Fragment(), "Tab 3");
+        adapter.addFragment(new GeneralFragment(), "General Questions");
+        adapter.addFragment(new CarFragment(), "Car Questions");
+        adapter.addFragment(new BikeFragment(), "Motorcycle Questions");
+
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
     }

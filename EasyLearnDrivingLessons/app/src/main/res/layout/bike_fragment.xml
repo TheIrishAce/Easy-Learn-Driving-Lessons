@@ -29,7 +29,7 @@
                 android:layout_margin="@dimen/text_margin"
                 android:background="@drawable/textview_border"
                 android:gravity="center_vertical"
-                android:text="@string/question_0001"
+                android:text="@string/question_0001_bike"
                 android:textSize="14dp" />
 
             <TextView
@@ -39,7 +39,7 @@
                 android:layout_margin="@dimen/text_margin"
                 android:background="@drawable/textview_border"
                 android:gravity="center_vertical"
-                android:text="@string/answer_0001"
+                android:text="@string/answer_0001_bike"
                 android:textSize="14dp" />
 
             <ImageView
@@ -52,23 +52,23 @@
                 app:srcCompat="@mipmap/stop_sign" />
 
             <TextView
-                android:id="@+id/answer2Lbl"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/text_margin"
-                android:background="@drawable/textview_border"
-                android:gravity="center_vertical"
-                android:text="@string/answer_0002"
-                android:textSize="14dp" />
-
-            <TextView
                 android:id="@+id/question2Lbl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
                 android:background="@drawable/textview_border"
                 android:gravity="center_vertical"
-                android:text="@string/question_0002"
+                android:text="@string/question_0002_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer2Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0002_bike"
                 android:textSize="14dp" />
 
             <ImageView
@@ -87,7 +87,7 @@
                 android:layout_margin="@dimen/text_margin"
                 android:background="@drawable/textview_border"
                 android:gravity="center_vertical"
-                android:text="@string/question_0003"
+                android:text="@string/question_0003_bike"
                 android:textSize="14dp" />
 
             <TextView
@@ -97,7 +97,7 @@
                 android:layout_margin="@dimen/text_margin"
                 android:background="@drawable/textview_border"
                 android:gravity="center_vertical"
-                android:text="@string/answer_0003"
+                android:text="@string/answer_0003_bike"
                 android:textSize="14dp" />
 
         </LinearLayout>

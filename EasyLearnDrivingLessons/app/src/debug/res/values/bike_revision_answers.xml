@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer_0001_bike">
+        "1. A helmet.\n"
+        "2. A helmet and gloves.\n"
+        "3. Protective clothing and a helmet.\n"
+        "4. Gloves, boots, helmet and protective clothing.\n\n"
+        "<b>Correct Answer</b>: Gloves, boots, helmet and protective clothing."
+    </string>
+    <string name="answer_0002_bike">
+        "1. Petrol, oil, water, damage, electrics and tyres.\n"
+        "2. Tyres and petrol.\n"
+        "3. Tyres.\n"
+        "4. Oil and water.\n\n"
+        "<b>Correct Answer</b>: Petrol, oil, water, damage, electrics and tyres."
+    </string>
+    <string name="answer_0003_bike">
+        "1. That the first gear is selected.\n"
+        "2. That the reverse gear is selected.\n"
+        "3. That the neutral gear is selected.\n"
+        "4. The gear selected doesn't matter.\n\n"
+        "<b>Correct Answer</b>: That the neutral gear is selected."
+    </string>
+    <string name="answer_0004_bike">
+        "1. Lean in the direction of the turn.\n"
+        "2. Don't lean at all.\n"
+        "3. Lean in the opposite direction of the turn\n"
+        "4. Lean forwards.\n\n"
+        "<b>Correct Answer</b>: Lean in the direction of the turn."
+    </string>
+    <string name="answer_0005_bike">
+        "1. Causing oncoming traffic to alter course or speed.\n"
+        "2. Contacting Vehicles as you closely maneuver around them\n"
+        "3. Speeding up to overtake.\n"
+        "4. Checking his/hers mirrors before overtaking.\n\n"
+        "<b>Correct Answer</b>: Causing oncoming traffic to alter course or speed."
+    </string>
+
+</resources>

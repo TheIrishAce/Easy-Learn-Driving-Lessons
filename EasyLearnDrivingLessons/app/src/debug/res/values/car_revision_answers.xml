@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer_0001_car">
+        "1. Stop, for school crossing ahead.\n"
+        "2. Before opening the door, the driver should make sure it is safe to do so\n"
+        "3. Other traffic must give way to you.\n"
+        "4. Give way to traffic coming from your right.\n\n"
+        "<b>Correct Answer</b>: Stop your vehicle."
+    </string>
+    <string name="answer_0002_car">
+        "1. Stop at the line.\n"
+        "2. When you have passed the line.\n"
+        "3. Only if there is traffic on the major road.\n"
+        "4. No more than one car length past the line.\n\n"
+        "<b>Correct Answer</b>: Stop at the line."
+    </string>
+    <string name="answer_0003_car">
+        "1. No more than one car length past the sign.\n"
+        "2. Stop at the sign.\n"
+        "3. Only if there is traffic at the junction.\n"
+        "4. Only when having passed the sign.\n\n"
+        "<b>Correct Answer</b>: Stop at the sign."
+    </string>
+    <string name="answer_0004_car">
+        "1. Slowing down.\n"
+        "2. Turning right.\n"
+        "3. Turning left.\n"
+        "4. Going straight ahead.\n\n"
+        "<b>Correct Answer</b>: Turning right."
+    </string>
+
+</resources>

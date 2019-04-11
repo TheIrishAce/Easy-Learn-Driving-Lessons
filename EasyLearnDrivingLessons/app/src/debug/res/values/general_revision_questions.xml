@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="question_0001_general">
+        "What does this sign mean?"
+    </string>
+    <string name="question_0002_general">
+        "What must a driver do when this sign is accompanied by a white stop line on the road?"
+    </string>
+    <string name="question_0003_general">
+        "What must a driver do when this sign is NOT accompanied by a white stop line on the road?"
+    </string>
+    <string name="question_0004_general">
+        "This hand signal means the driver is.."
+    </string>
+</resources>
