@@ -12,6 +12,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorBackground">@color/colorBackgroundLight</item>
         <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:buttonStyle">@color/colorButtonBackgroundLight</item>
     </style>
 
     <style name="Base.MyTheme.NoActionBar">

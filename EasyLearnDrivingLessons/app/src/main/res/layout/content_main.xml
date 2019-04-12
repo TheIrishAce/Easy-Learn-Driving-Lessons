@@ -27,7 +27,7 @@
 
     <Button
         android:id="@+id/takeTestBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -46,7 +46,7 @@
 
     <Button
         android:id="@+id/TestQuestionsBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -64,7 +64,7 @@
 
     <Button
         android:id="@+id/VideoLessonsBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -82,7 +82,7 @@
 
     <Button
         android:id="@+id/InsuranceBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -100,7 +100,7 @@
 
     <Button
         android:id="@+id/DrivingSchoolBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -118,7 +118,7 @@
 
     <Button
         android:id="@+id/ContactUsBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -136,7 +136,7 @@
 
     <Button
         android:id="@+id/BookDttBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -154,7 +154,7 @@
 
     <Button
         android:id="@+id/NearestTestCentreBtn"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"

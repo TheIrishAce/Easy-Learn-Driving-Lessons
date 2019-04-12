@@ -12,6 +12,7 @@
         <item name="colorAccent">@color/colorAccentNight</item>
         <item name="android:colorBackground">@color/colorBackgroundNight</item>
         <item name="android:textColor">@color/colorTextNight</item>
+
     </style>
 
     <style name="Base.MyTheme.NoActionBar">

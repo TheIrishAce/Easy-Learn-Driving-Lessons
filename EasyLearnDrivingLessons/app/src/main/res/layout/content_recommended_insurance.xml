@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".recommended_insurance"
     tools:showIn="@layout/activity_recommended_insurance">
@@ -15,99 +16,130 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/QuoteDevil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="Quote Devil"
+                    android:text="Quote Devil"
+                    android:textSize="24dp" />
+
+                <ImageView
+                    android:id="@+id/quoteDevilImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@mipmap/quote_devil_insurance" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/editTextQuoteDevil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="editTextQuoteDevil"
+                android:inputType="textMultiLine"
+                android:text="I tried a lot of companies for cover and received various quotes but the quote I secured from QuoteDevil.ie could not be topped for price and level of protection."
+                android:textSize="18dp" />
+
+            <RatingBar
+                android:id="@+id/quotedevilratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:numStars="4"
+                android:rating="4"
+                android:stepSize="4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextQuoteDevil" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Allianz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="Allianz"
+                    android:inputType="text"
+                    android:text="Allianz"
+                    android:textSize="24dp"  />
+
+                <ImageView
+                    android:id="@+id/allianzImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@mipmap/allianz_insurance" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/editTextallianz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="editTextallianz"
+                android:inputType="textMultiLine"
+                android:text="Highly competitive car insurance rate, very easy to use site for gaining quick quote"
+                android:textSize="18dp" />
+
+            <RatingBar
+                android:id="@+id/allianzratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextallianz" />
+
+        </LinearLayout>
     </ScrollView>
 
-    <EditText
-        android:id="@+id/Allianz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="231dp"
-        android:ems="10"
-        android:hint="Allianz"
-        android:inputType="text"
-        android:text="Allianz"
-        app:layout_constraintBottom_toTopOf="@+id/QuoteDevil"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Allianz" />
-
-    <EditText
-        android:id="@+id/editTextallianz"
-        android:layout_width="351dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="19dp"
-        android:ems="10"
-        android:hint="editTextallianz"
-        android:inputType="textMultiLine"
-        android:text="Highly competitive car insurance rate, very easy to use site for gaining quick quote"
-        app:layout_constraintBottom_toTopOf="@+id/allianzratingbar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Allianz"
-        tools:text="Highly competitive car insurance rate, very easy to use site for gaining quick quote" />
-
-    <RatingBar
-        android:id="@+id/allianzratingbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="434dp"
-        android:numStars="5"
-        android:rating="5"
-        android:stepSize="5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextallianz" />
-
-    <EditText
-        android:id="@+id/QuoteDevil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:hint="QuoteDevil"
-        android:inputType="text"
-        android:text="QuoteDevil"
-        app:layout_constraintBottom_toTopOf="@+id/editTextQuoteDevil"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Allianz"
-        tools:text="QuoteDevil" />
-
-    <EditText
-        android:id="@+id/editTextQuoteDevil"
-        android:layout_width="355dp"
-        android:layout_height="119dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:hint="editTextQuoteDevil"
-        android:inputType="textMultiLine"
-        android:text="I tried a lot of companies for cover and received various quotes but the quote I secured from QuoteDevil.ie could not be topped for price and level of protection."
-        app:layout_constraintBottom_toTopOf="@+id/quotedevilratingbar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/QuoteDevil"
-        tools:text="I tried a lot of companies for cover and received various quotes but the quote I secured from QuoteDevil.ie could not be topped for price and level of protection." />
-
-    <RatingBar
-        android:id="@+id/quotedevilratingbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="176dp"
-        android:numStars="4"
-        android:rating="4"
-        android:stepSize="4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextQuoteDevil" />
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

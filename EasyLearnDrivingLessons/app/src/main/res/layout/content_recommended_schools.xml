@@ -1,94 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".recommended_schools"
     tools:showIn="@layout/activity_recommended_schools">
 
-    <EditText
-        android:id="@+id/AirportDrivingSchool"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginBottom="363dp"
-        android:ems="10"
-        android:text="AirportDrivingSchool"
-        app:layout_constraintBottom_toTopOf="@+id/description2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/description1"
-        android:layout_width="357dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="449dp"
-        android:ems="10"
-        android:hint="description1"
-        android:inputType="textMultiLine"
-        android:text="excellent instructors , superb location, 10/10 recommend"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AirportDrivingSchool"
-        app:layout_constraintVertical_bias="0.0" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="233dp"
-        android:layout_height="wrap_content"
-        android:numStars="5"
-        android:rating="5"
-        app:layout_constraintStart_toStartOf="@+id/description1"
-        app:layout_constraintTop_toBottomOf="@+id/description1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
 
-    <EditText
-        android:id="@+id/DC"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="144dp"
-        android:ems="10"
-        android:hint="DCDriving"
-        android:inputType="text"
-        android:text="DC Driving"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+                <TextView
+                    android:id="@+id/AirportDrivingSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:text="Airport Driving School"
+                    android:textSize="24dp" />
 
-    <EditText
-        android:id="@+id/description2"
-        android:layout_width="341dp"
-        android:layout_height="105dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginLeft="31dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginRight="31dp"
-        android:layout_marginBottom="118dp"
-        android:ems="10"
-        android:hint="description2"
-        android:inputType="textMultiLine"
-        android:text="top quality school with knowledgable instructors , great low price too "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AirportDrivingSchool" />
+                <ImageView
+                    android:id="@+id/airportSchoolImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@mipmap/Airport_school" />
+            </LinearLayout>
 
-    <RatingBar
-        android:id="@+id/ratingBar2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:numStars="4"
-        android:rating="4"
-        android:stepSize="4"
-        app:layout_constraintStart_toStartOf="@+id/description2"
-        app:layout_constraintTop_toBottomOf="@+id/description2" />
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:ems="10"
+                android:hint="description1"
+                android:inputType="textMultiLine"
+                android:text="excellent instructors , superb location, 10/10 recommend" />
 
-</android.support.constraint.ConstraintLayout>
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:numStars="5"
+                android:rating="5"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/DC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="DCDriving"
+                    android:inputType="text"
+                    android:text="DC Driving"
+                    android:textSize="24dp" />
+
+                <ImageView
+                    android:id="@+id/dcSchoolImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@mipmap/DC_school" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18dp"
+                android:ems="10"
+                android:hint="description2"
+                android:inputType="textMultiLine"
+                android:text="top quality school with knowledgable instructors , great low price too " />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:numStars="4"
+                android:rating="4"
+                android:stepSize="4"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

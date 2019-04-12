@@ -5,12 +5,16 @@
     <color name="colorPrimaryDark">#8D4C4C</color>
     <color name="colorAccent">#000000</color>
     <color name="colorBackgroundLight">#FCFCFC</color>
-    <color name="colorTextLight">#FCFCFC</color>
+    <color name="colorTextLight">#000000</color>
+    <color name="colorButtonBackgroundLight">#ADADAD</color>
+    <!-- <color name="colorTextViewLight">#000000</color> -->
 
     //Colours used in Dark mode.
     <color name="colorPrimaryNight">#DA6A6A</color>
     <color name="colorPrimaryDarkNight">#8D4C4C</color>
     <color name="colorAccentNight">#000000</color>
     <color name="colorBackgroundNight">#6D6D6D</color>
-    <color name="colorTextNight">#FFC500</color>
+    <color name="colorTextNight">#FCFCFC</color> <!-- Old Yellow Colour Code #FFC500 -->
+    <color name="colorButtonBackgroundDark">#ADADAD</color>
+    <!-- <color name="colorTextViewDark">#FFFFFF</color> -->
 </resources>
