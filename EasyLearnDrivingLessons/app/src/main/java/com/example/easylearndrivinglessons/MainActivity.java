@@ -57,12 +57,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, VideoActivity.class));
             }
         });
+
         Button insuranceButton = findViewById(R.id.InsuranceBtn);
         insuranceButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 startActivity(new Intent(MainActivity.this, recommended_insurance.class));
+            }
+        });
+
+        Button schoolsButton = findViewById(R.id.DrivingSchoolBtn);
+        schoolsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(MainActivity.this, recommended_schools.class));
             }
         });
 

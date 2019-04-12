@@ -26,6 +26,10 @@
             android:name=".recommended_insurance"
             android:label="Recommended Insurance"
             android:theme="@style/Base.MyTheme.NoActionBar" />
+        <activity
+            android:name=".recommended_schools"
+            android:label="Recommended Schools"
+            android:theme="@style/Base.MyTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
