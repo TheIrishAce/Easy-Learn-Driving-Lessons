@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="8dp"
                 android:scaleType="center"
-                app:srcCompat="@mipmap/stop_sign" />
+                app:srcCompat="@mipmap/bendy_road" />
 
             <TextView
                 android:id="@+id/question1Lbl"

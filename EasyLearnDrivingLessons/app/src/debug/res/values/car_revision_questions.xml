@@ -4,12 +4,45 @@
         "When parked on a busy road, what should the driver be aware of?"
     </string>
     <string name="question_0002_car">
-        "What must a driver do when this sign is accompanied by a white stop line on the road?"
+        "What should a driver do when they intend to reverse onto a side road?"
     </string>
     <string name="question_0003_car">
-        "What must a driver do when this sign is NOT accompanied by a white stop line on the road?"
+        "When should rear fog lights be used?"
     </string>
     <string name="question_0004_car">
-        "This hand signal means the driver is.."
+        "Where should L-plates be displayed on cars?"
+    </string>
+    <string name="question_0005_car">
+        ""
+    </string>
+    <string name="question_0006_car">
+        "123"
+    </string>
+    <string name="question_0007_car">
+        ""
+    </string>
+    <string name="question_0008_car">
+        ""
+    </string>
+    <string name="question_0009_car">
+        ""
+    </string>
+    <string name="question_0010_car">
+        ""
+    </string>
+    <string name="question_0011_car">
+        ""
+    </string>
+    <string name="question_0012_car">
+        ""
+    </string>
+    <string name="question_0013_car">
+        ""
+    </string>
+    <string name="question_0014_car">
+        ""
+    </string>
+    <string name="question_0015_car">
+        ""
     </string>
 </resources>

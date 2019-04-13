@@ -35,5 +35,76 @@
         "4. Checking his/hers mirrors before overtaking.\n\n"
         "<b>Correct Answer</b>: Causing oncoming traffic to alter course or speed."
     </string>
-
+    <string name="answer_0006_bike">
+        "1. Use the front brake followed by the rear brake.\n"
+        "2. Use the rear brake followed by the front brake.\n"
+        "3. Use the front brake only.\n"
+        "4. Use the rear brake only.\n\n"
+        "<b>Correct Answer</b>: Use the front brake followed by the rear brake."
+    </string>
+    <string name="answer_0007_bike">
+        "1. Melting tar is not good nor bad for tyre grip.\n"
+        "2. Melting tar is good for tyre grip.\n"
+        "3. Melting tar reduces tyre grip.\n"
+        "4. Melting tar reduces speed.\n\n"
+        "<b>Correct Answer</b>: Melting tar reduces tyre grip."
+    </string>
+    <string name="answer_0008_bike">
+        "1. During slow manoeuvres.\n"
+        "2. During all manoeuvres.\n"
+        "3. During high speed manoeuvres\n"
+        "4. During emergencies only\n\n"
+        "<b>Correct Answer</b>: During slow manoeuvres."
+    </string>
+    <string name="answer_0009_bike">
+        "1. Only on the straight.\n"
+        "2. Only on turns.\n"
+        "3. Never brake firmly.\n"
+        "4. Always break firmly.\n\n"
+        "<b>Correct Answer</b>: Only on the straight."
+    </string>
+    <string name="answer_0010_bike">
+        "1. Low fuel levels.\n"
+        "2. Battery power is low.\n"
+        "3. Water on the bike's wheels.\n"
+        "4. Water on the road.\n\n"
+        "<b>Correct Answer</b>: ABC"
+    </string>
+    <!--
+    <string name="answer_0011_bike">
+        "1. \n"
+        "2. \n"
+        "3. \n"
+        "4. \n\n"
+        "<b>Correct Answer</b>: ABC"
+    </string>
+    <string name="answer_0012_bike">
+        "1. \n"
+        "2. \n"
+        "3. \n"
+        "4. \n\n"
+        "<b>Correct Answer</b>: ABC"
+    </string>
+    <string name="answer_0013_bike">
+        "1. \n"
+        "2. \n"
+        "3. \n"
+        "4. \n\n"
+        "<b>Correct Answer</b>: ABC"
+    </string>
+    <string name="answer_0014_bike">
+        "1. \n"
+        "2. \n"
+        "3. \n"
+        "4. \n\n"
+        "<b>Correct Answer</b>: ABC"
+    </string>
+    <string name="answer_0015_bike">
+        "1. \n"
+        "2. \n"
+        "3. \n"
+        "4. \n\n"
+        "<b>Correct Answer</b>: ABC"
+    </string>
+    -->
 </resources>

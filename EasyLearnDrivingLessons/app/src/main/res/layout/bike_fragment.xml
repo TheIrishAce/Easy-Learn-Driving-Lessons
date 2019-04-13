@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="8dp"
                 android:scaleType="center"
-                app:srcCompat="@mipmap/stop_sign" />
+                app:srcCompat="@mipmap/bike_protective_clothing" />
 
             <TextView
                 android:id="@+id/question1Lbl"
@@ -49,7 +49,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/stop_sign" />
+                app:srcCompat="@mipmap/bike_black" />
 
             <TextView
                 android:id="@+id/question2Lbl"
@@ -78,7 +78,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/stop_sign" />
+                app:srcCompat="@mipmap/bike_black" />
 
             <TextView
                 android:id="@+id/question3Lbl"
@@ -98,6 +98,209 @@
                 android:background="@drawable/textview_border"
                 android:gravity="center_vertical"
                 android:text="@string/answer_0003_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question4Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question4Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0004_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer4Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0004_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question5Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question5Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0005_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer5Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0005_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question6Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question6Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0006_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer6Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0006_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question7Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question7Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0007_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer7Lbl7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0007_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question8Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question8Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0008_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer8Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0008_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question9Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question9Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0009_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer9Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0009_bike"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/question10Img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:scaleType="center"
+
+                app:srcCompat="@mipmap/bike_black" />
+
+            <TextView
+                android:id="@+id/question10Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/question_0010_bike"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/answer10Lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:background="@drawable/textview_border"
+                android:gravity="center_vertical"
+                android:text="@string/answer_0010_bike"
                 android:textSize="14dp" />
 
         </LinearLayout>
