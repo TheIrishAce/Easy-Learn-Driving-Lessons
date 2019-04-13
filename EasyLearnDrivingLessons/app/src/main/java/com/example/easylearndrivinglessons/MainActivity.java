@@ -49,6 +49,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, contact_page.class));
             }
         });
+
+        Button testButton = findViewById(R.id.takeTestBtn);
+        testButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(MainActivity.this, Test.class));
+            }
+        });
+
         Button videoButton = findViewById(R.id.VideoLessonsBtn);
         videoButton.setOnClickListener(new View.OnClickListener(){
             @Override
