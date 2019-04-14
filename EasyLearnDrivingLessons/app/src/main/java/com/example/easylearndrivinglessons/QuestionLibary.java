@@ -17,7 +17,7 @@ public class QuestionLibary {
 
     };
 
-    private String mCa[]={"Stop your vehicle","Stop at the sign","Stop at the sign","Turning right"};
+    private String mCa[]={"Stop your vehicle","Stop at the line","Stop at the sign","Turning right"};
 
     public String getQuestion(int a){
         String question=mQuestions[a];
@@ -49,4 +49,11 @@ public class QuestionLibary {
         return ans;
     }
 
+    public String[] getmQuestions() {
+        return mQuestions;
+    }
+
+    public void setmQuestions(String[] mQuestions) {
+        this.mQuestions = mQuestions;
+    }
 }
