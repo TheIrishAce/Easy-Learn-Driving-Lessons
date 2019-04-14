@@ -2,8 +2,6 @@ package com.example.easylearndrivinglessons;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,8 +13,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
 
+public class BikeActivity extends AppCompatActivity {
 
-public class GeneralActivity extends AppCompatActivity {
     private QuestionLibary ql=new QuestionLibary();
     private Button mb1;
     private Button mb2;
@@ -42,6 +40,13 @@ public class GeneralActivity extends AppCompatActivity {
         number.add(1);
         number.add(2);
         number.add(3);
+        number.add(4);
+        number.add(5);
+        number.add(6);
+        number.add(7);
+        number.add(8);
+        number.add(9);
+
         Collections.shuffle(number);
 
         //pic.findViewById(R.id.imageView2);
@@ -61,7 +66,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==10){
                     end();
                 }
 
@@ -81,7 +86,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==10){
                     end();
                 }
 
@@ -101,7 +106,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==10){
                     end();
                 }
 
@@ -121,7 +126,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==10){
                     end();
                 }
 
@@ -145,24 +150,24 @@ public class GeneralActivity extends AppCompatActivity {
     }
 
     private void updateQuestion(int num){
-        if(qnum==4){  end();
+        if(qnum==10){  end();
         }
 
 
-       // pic.setImageIcon(ql.myImages.get(num));
-        qu.setText(ql.getQuestion(num));
-        mb1.setText(ql.getChoice1(num));
-        mb2.setText(ql.getChoice2(num));
-        mb3.setText(ql.getChoice3(num));
-        mb4.setText(ql.getChoice4(num));
+        // pic.setImageIcon(ql.myImages.get(num));
+        qu.setText(ql.getQuestionBike(num));
+        mb1.setText(ql.getChoiceBike1(num));
+        mb2.setText(ql.getChoiceBike2(num));
+        mb3.setText(ql.getChoiceBike3(num));
+        mb4.setText(ql.getChoiceBike4(num));
 
-        mAnswer=ql.getCorrect(num);
+        mAnswer=ql.getCorrectBike(num);
 
     }
 
 
     private void end(){
-        AlertDialog.Builder alertDialogBuilder =new AlertDialog.Builder(GeneralActivity.this);
+        AlertDialog.Builder alertDialogBuilder =new AlertDialog.Builder(BikeActivity.this);
         alertDialogBuilder
                 .setMessage("Test Finished your score is "+score)
                 .setCancelable(false)
@@ -170,7 +175,7 @@ public class GeneralActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(getApplicationContext(), GeneralActivity.class));
+                                startActivity(new Intent(getApplicationContext(), BikeActivity.class));
                             }
                         })
                 .setNegativeButton("Exit",
@@ -180,9 +185,7 @@ public class GeneralActivity extends AppCompatActivity {
                                 finish();
                             }
                         });
-                                AlertDialog alertDialog=alertDialogBuilder.create();
+        AlertDialog alertDialog=alertDialogBuilder.create();
         alertDialog.show();
     }
-
-
 }

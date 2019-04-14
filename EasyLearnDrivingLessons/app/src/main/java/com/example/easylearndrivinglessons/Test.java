@@ -24,5 +24,23 @@ public class Test extends AppCompatActivity {
                 startActivity(new Intent(Test.this, GeneralActivity.class));
             }
         });
+
+        Button car = findViewById(R.id.Car);
+        car.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(Test.this, CarActivity.class));
+            }
+        });
+
+        Button bike = findViewById(R.id.Bike);
+        bike.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+
+                startActivity(new Intent(Test.this, BikeActivity.class));
+            }
+        });
     }
 }

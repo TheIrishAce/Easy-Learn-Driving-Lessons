@@ -2,28 +2,25 @@ package com.example.easylearndrivinglessons;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
+public class CarActivity extends AppCompatActivity {
 
-public class GeneralActivity extends AppCompatActivity {
     private QuestionLibary ql=new QuestionLibary();
     private Button mb1;
     private Button mb2;
     private Button mb3;
     private Button mb4;
+    private Button quit;
     private TextView qu;
-    ImageView pic;
 
     private String mAnswer;
     private TextView asw;
@@ -41,10 +38,9 @@ public class GeneralActivity extends AppCompatActivity {
         number.add(0);
         number.add(1);
         number.add(2);
-        number.add(3);
         Collections.shuffle(number);
 
-        //pic.findViewById(R.id.imageView2);
+
         asw=(TextView)findViewById(R.id.score1);
         qu=(TextView)findViewById(R.id.question);
         mb1=(Button)findViewById(R.id.choice1);
@@ -61,7 +57,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==3){
                     end();
                 }
 
@@ -81,7 +77,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==3){
                     end();
                 }
 
@@ -101,7 +97,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==3){
                     end();
                 }
 
@@ -121,7 +117,7 @@ public class GeneralActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 qnum++;
-                if(qnum==4){
+                if(qnum==3){
                     end();
                 }
 
@@ -143,26 +139,23 @@ public class GeneralActivity extends AppCompatActivity {
 
 
     }
-
     private void updateQuestion(int num){
-        if(qnum==4){  end();
+        if(qnum==3){  end();
         }
 
+        qu.setText(ql.getQuestionCar(num));
+        mb1.setText(ql.getChoiceCar1(num));
+        mb2.setText(ql.getChoiceCar2(num));
+        mb3.setText(ql.getChoiceCar3(num));
+        mb4.setText(ql.getChoiceCar4(num));
 
-       // pic.setImageIcon(ql.myImages.get(num));
-        qu.setText(ql.getQuestion(num));
-        mb1.setText(ql.getChoice1(num));
-        mb2.setText(ql.getChoice2(num));
-        mb3.setText(ql.getChoice3(num));
-        mb4.setText(ql.getChoice4(num));
-
-        mAnswer=ql.getCorrect(num);
+        mAnswer=ql.getCorrectCar(num);
 
     }
 
 
     private void end(){
-        AlertDialog.Builder alertDialogBuilder =new AlertDialog.Builder(GeneralActivity.this);
+        AlertDialog.Builder alertDialogBuilder =new AlertDialog.Builder(CarActivity.this);
         alertDialogBuilder
                 .setMessage("Test Finished your score is "+score)
                 .setCancelable(false)
@@ -170,7 +163,7 @@ public class GeneralActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                startActivity(new Intent(getApplicationContext(), GeneralActivity.class));
+                                startActivity(new Intent(getApplicationContext(), CarActivity.class));
                             }
                         })
                 .setNegativeButton("Exit",
@@ -180,9 +173,7 @@ public class GeneralActivity extends AppCompatActivity {
                                 finish();
                             }
                         });
-                                AlertDialog alertDialog=alertDialogBuilder.create();
+        AlertDialog alertDialog=alertDialogBuilder.create();
         alertDialog.show();
     }
-
-
 }

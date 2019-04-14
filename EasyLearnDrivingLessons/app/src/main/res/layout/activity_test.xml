@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/General"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="142dp"
+        android:layout_width="350dp"
         android:layout_height="86dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -27,7 +27,7 @@
     <Button
         android:id="@+id/Car"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="142dp"
+        android:layout_width="350dp"
         android:layout_height="86dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -46,7 +46,7 @@
     <Button
         android:id="@+id/Bike"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="142dp"
+        android:layout_width="350dp"
         android:layout_height="86dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
