@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer_0001_car">
+        "1. What's in front of the your vehicle.\n"
+        "2. Before opening the door, the driver should make sure it is safe to do so.\n"
+        "3. What's at the rear of your vehicle.\n"
+        "4. Make sure the heater is turned on or off.\n\n"
+        "<b>Correct Answer</b>: Before opening the door, the driver should make sure it is safe to do so."
+    </string>
+    <string name="answer_0002_car">
+        "1. Check carefully all around once before the reverse.\n"
+        "2. Check carefully all around once during the reverse.\n"
+        "3. Check carefully all around before and during the reverse.\n"
+        "4. Don't check as you have right of way.\n\n"
+        "<b>Correct Answer</b>: Check carefully all around before and during the reverse."
+    </string>
+    <string name="answer_0003_car">
+        "1. In dense fog or falling snow.\n"
+        "2. In dark environments like back roads.\n"
+        "3. In tandem with your main headlights.\n"
+        "4. In any circumstance.\n\n"
+        "<b>Correct Answer</b>: In dense fog or falling snow."
+    </string>
+    <string name="answer_0004_car">
+        "1. Either front or rear\n"
+        "2. Just front.\n"
+        "3. Just rear.\n"
+        "4. Both front and rear.\n\n"
+        "<b>Correct Answer</b>: Both front and rear."
+    </string>
+    <string name="answer_0005_car">
+        "1. The front wheels.\n"
+        "2. The rear wheels.\n"
+        "3. Both front and rear wheels.\n"
+        "4. The front then rear wheels\n\n"
+        "<b>Correct Answer</b>: The rear wheels.\n""
+    </string>
+    <string name="answer_0006_car">
+        "1. 1.6 millimeters.\n"
+        "2. 1.2 millimeters.\n"
+        "3. 2.0 millimeters.\n"
+        "4. 1.8 millimeters.\n\n"
+        "<b>Correct Answer</b>: 1.6 millimeters."
+    </string>
+    <string name="answer_0007_car">
+        "1. During their drive.\n"
+        "2. At the first red light.\n"
+        "3. Before they move off.\n"
+        "4. Whenever they please.\n\n"
+        "<b>Correct Answer</b>: Before they move off."
+    </string>
+    <string name="answer_0008_car">
+        "1. Change gear to neutral.\n"
+        "2. Slam down the breaks.\n"
+        "3. Press down the accelerator.\n"
+        "4. Release the accelerator.\n\n"
+        "<b>Correct Answer</b>: Release the accelerator."
+    </string>
+    <string name="answer_0009_car">
+        "1. Turn the steering wheel in the same direction as the rear wheels are heading.\n"
+        "2. Turn the steering wheel in the opposite direction as the rear wheels are heading.\n"
+        "3. Turn the steering wheel to centre the wheels.\n"
+        "4. Don't turn the steering wheel at all.\n\n"
+        "<b>Correct Answer</b>: Turn the steering wheel in the same direction as the rear wheels are heading."
+    </string>
+    <string name="answer_0010_car">
+        "1. Apply the footbrake firmly.\n"
+        "2. Speed up.\n"
+        "3. Swerve to avoid the obstacle.\n"
+        "4. Beep your horn to notify drivers of the obstacle.\n\n"
+        "<b>Correct Answer</b>: Apply the footbrake firmly."
+    </string>
+
+</resources>

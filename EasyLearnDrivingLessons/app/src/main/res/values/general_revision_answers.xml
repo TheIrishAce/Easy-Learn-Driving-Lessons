@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="answer_0001_general">
+        "1. Stop, for school crossing ahead.\n"
+        "2. Stop your vehicle.\n"
+        "3. Other traffic must give way to you.\n"
+        "4. Give way to traffic coming from your right.\n\n"
+        "<b>Correct Answer</b>: Stop your vehicle."
+    </string>
+    <string name="answer_0002_general">
+        "1. Stop at the line.\n"
+        "2. When you have passed the line.\n"
+        "3. Only if there is traffic on the major road.\n"
+        "4. No more than one car length past the line.\n\n"
+        "<b>Correct Answer</b>: Stop at the line."
+    </string>
+    <string name="answer_0003_general">
+        "1. No more than one car length past the sign.\n"
+        "2. Stop at the sign.\n"
+        "3. Only if there is traffic at the junction.\n"
+        "4. Only when having passed the sign.\n\n"
+        "<b>Correct Answer</b>: Stop at the sign."
+    </string>
+    <string name="answer_0004_general">
+        "1. Slowing down.\n"
+        "2. Turning right.\n"
+        "3. Turning left.\n"
+        "4. Going straight ahead.\n\n"
+        "<b>Correct Answer</b>: Turning right."
+    </string>
+    <string name="answer_0005_general">
+        "1. Beep impatiently.\n"
+        "2. Be patient and wait.\n"
+        "3. Rev your engine.\n"
+        "4. Try to squeeze around the blocking vehicle.\n\n"
+        "<b>Correct Answer</b>: Be patient and wait."
+    </string>
+    <string name="answer_0006_general">
+        "1. Don't drive for the day.\n"
+        "2. Try to calm down during the drive.\n"
+        "3. Don't drive until they are calm.\n"
+        "4. Drive, your emotions don't effect your driving ability.\n\n"
+        "<b>Correct Answer</b>: Dont drive until they are calm."
+    </string>
+    <string name="answer_0007_general">
+        "1. Press hard on the brakes to create a big enough space in front of your vehicle.\n"
+        "2. Speed up to make sure the overtaking vehicle can rejoin the left side of the road behind you again.\n"
+        "3. Reduce speed and allow the overtaking vehicle to return to the left side of the road after completing the overtaking manoeuvre.\n"
+        "4. Ignore what's happening in the opposite lane as it doesn't concern you.\n\n"
+        "<b>Correct Answer</b>: Reduce speed and allow the overtaking vehicle to return to the left side of the road after completing the overtaking manoeuvre."
+    </string>
+    <string name="answer_0008_general">
+        "1. It slows down a driver’s reactions.\n"
+        "2. It heightens a driver's reactions.\n"
+        "3. It doesn't effect driver's reactions.\n"
+        "4. It complements the driver's natural reactions.\n\n"
+        "<b>Correct Answer</b>: It slows down a driver’s reactions."
+    </string>
+    <string name="answer_0009_general">
+        "1. It wakens the driver up.\n"
+        "2. It makes the driver more alert.\n"
+        "3. It makes the driver a better driver.\n"
+        "4. It makes the driver drowsy.\n\n"
+        "<b>Correct Answer</b>: It makes the driver drowsy."
+    </string>
+    <string name="answer_0010_general">
+        "1. Drive anyway, the drugs aren't illegal.\n"
+        "2. Drive anyway because the drugs are prescribed.\n"
+        "3. Seek medical advice in relation to driving.\n"
+        "4. Ring a local pharmacy about your medication.\n\n"
+        "<b>Correct Answer</b>: Seek medical advice in relation to driving."
+    </string>
+    <string name="answer_0011_general">
+        "1. Use an in car hands free intercom system.\n"
+        "2. Use voice chat earphones so you're not holding the phone.\n"
+        "3. Use the phone whenever you like during the journey.\n"
+        "4. Stop at a safe location before using the phone. \n\n"
+        "<b>Correct Answer</b>: Stop at a safe location before using the phone."
+    </string>
+    <string name="answer_0012_general">
+        "1. Reduce speed as there may be loose gravel or mud on the road.\n"
+        "2. Speed up to get clear of the road works quicker.\n"
+        "3. Maintain the normal speed limit for the road without exceptions.\n"
+        "4. Stop to get a look at what's going on.\n\n"
+        "<b>Correct Answer</b>: Reduce speed as there may be loose gravel or mud on the road."
+    </string>
+    <string name="answer_0013_general">
+        "1. A driver should be ready to speed away once the traffic lights go green or the queue clears.\n"
+        "2. A driver should turn of their engine to avoid wasting fuel.\n"
+        "3. A driver should try to navigate and get to the front of the queue.\n"
+        "4. A driver should always maintain their position in the queue.\n\n"
+        "<b>Correct Answer</b>: A driver should always maintain their position in the queue."
+    </string>
+    <string name="answer_0014_general">
+        "1. Stop, take a break including a short walk if possible.\n"
+        "2. Continue pushing on and stop at a local fuel station.\n"
+        "3. Ignore your drowsiness and continue.\n"
+        "4. Buy a stimulant like coffee or caffeine.\n\n"
+        "<b>Correct Answer</b>: Stop, take a break including a short walk if possible."
+    </string>
+    <string name="answer_0015_general">
+        "1. When the vehicle in front is signalling to turn right.\n"
+        "2. When the vehicle in front is signalling to turn left.\n"
+        "3. When the vehicle in front is traveling straight.\n"
+        "4. When the vehicle in front is reversing backwards.\n\n"
+        "<b>Correct Answer</b>: When the vehicle in front is signalling to turn right."
+    </string>
+
+</resources>

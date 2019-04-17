@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="question_0001_bike">
+        "What should someone always wear while riding a motorcycle?"
+    </string>
+    <string name="question_0002_bike">
+        "What on a motorcycle should be checked weekly?"
+    </string>
+    <string name="question_0003_bike">
+        "What should a motorcyclist check before starting the engine?"
+    </string>
+    <string name="question_0004_bike">
+        "When a motorcyclist is cornering, what should they do?"
+    </string>
+    <string name="question_0005_bike">
+        "What should a motorcyclist avoid when overtaking?"
+    </string>
+    <string name="question_0006_bike">
+        "How should a motorcyclist apply the brakes to stop quickly in an emergency?"
+    </string>
+    <string name="question_0007_bike">
+        "What should motorcyclist be aware of when there is melting tar on the road?"
+    </string>
+    <string name="question_0008_bike">
+        "When should the rear brake of a motorcycle be used on its own?"
+    </string>
+    <string name="question_0009_bike">
+        "When should a motorcyclist brake firmly?"
+    </string>
+    <string name="question_0010_bike">
+        "What might cause a rider to lose control of a motorcycle?"
+    </string>
+</resources>

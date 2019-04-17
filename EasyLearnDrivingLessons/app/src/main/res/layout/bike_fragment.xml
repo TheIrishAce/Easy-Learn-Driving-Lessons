@@ -12,7 +12,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
             <ImageView
                 android:id="@+id/question1Img"
@@ -49,7 +49,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/petrol_gauge" />
 
             <TextView
                 android:id="@+id/question2Lbl"
@@ -78,7 +78,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_gears" />
 
             <TextView
                 android:id="@+id/question3Lbl"
@@ -107,7 +107,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_cornering" />
 
             <TextView
                 android:id="@+id/question4Lbl"
@@ -136,7 +136,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/overtaking_with_bike" />
 
             <TextView
                 android:id="@+id/question5Lbl"
@@ -165,7 +165,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_emergency_stop" />
 
             <TextView
                 android:id="@+id/question6Lbl"
@@ -194,7 +194,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_tar_damage" />
 
             <TextView
                 android:id="@+id/question7Lbl"
@@ -207,7 +207,7 @@
                 android:textSize="14dp" />
 
             <TextView
-                android:id="@+id/answer7Lbl7"
+                android:id="@+id/answer7Lbl"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/text_margin"
@@ -223,7 +223,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_slow_manuver" />
 
             <TextView
                 android:id="@+id/question8Lbl"
@@ -252,7 +252,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_straight_road_break" />
 
             <TextView
                 android:id="@+id/question9Lbl"
@@ -281,7 +281,7 @@
                 android:paddingTop="8dp"
                 android:scaleType="center"
 
-                app:srcCompat="@mipmap/bike_black" />
+                app:srcCompat="@mipmap/bike_water_hazard" />
 
             <TextView
                 android:id="@+id/question10Lbl"
